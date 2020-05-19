@@ -15,6 +15,7 @@
 		759F3C4A2474019B005232C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 759F3C482474019B005232C7 /* LaunchScreen.storyboard */; };
 		759F3C552474019B005232C7 /* SwiftUIBeginnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759F3C542474019B005232C7 /* SwiftUIBeginnerTests.swift */; };
 		759F3C602474019B005232C7 /* SwiftUIBeginnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759F3C5F2474019B005232C7 /* SwiftUIBeginnerUITests.swift */; };
+		759F3C70247402E1005232C7 /* Gadget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 759F3C6F247402E1005232C7 /* Gadget.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		759F3C5B2474019B005232C7 /* SwiftUIBeginnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIBeginnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		759F3C5F2474019B005232C7 /* SwiftUIBeginnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBeginnerUITests.swift; sourceTree = "<group>"; };
 		759F3C612474019B005232C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		759F3C6F247402E1005232C7 /* Gadget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gadget.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +101,8 @@
 		759F3C3C2474019A005232C7 /* SwiftUIBeginner */ = {
 			isa = PBXGroup;
 			children = (
-				759F3C3D2474019A005232C7 /* AppDelegate.swift */,
-				759F3C3F2474019A005232C7 /* SceneDelegate.swift */,
+				759F3C6E24740241005232C7 /* Application */,
+				759F3C6D24740236005232C7 /* Models */,
 				759F3C412474019A005232C7 /* ContentView.swift */,
 				759F3C432474019B005232C7 /* Assets.xcassets */,
 				759F3C482474019B005232C7 /* LaunchScreen.storyboard */,
@@ -134,6 +136,23 @@
 				759F3C612474019B005232C7 /* Info.plist */,
 			);
 			path = SwiftUIBeginnerUITests;
+			sourceTree = "<group>";
+		};
+		759F3C6D24740236005232C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				759F3C6F247402E1005232C7 /* Gadget.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		759F3C6E24740241005232C7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				759F3C3D2474019A005232C7 /* AppDelegate.swift */,
+				759F3C3F2474019A005232C7 /* SceneDelegate.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +289,7 @@
 				759F3C3E2474019A005232C7 /* AppDelegate.swift in Sources */,
 				759F3C402474019A005232C7 /* SceneDelegate.swift in Sources */,
 				759F3C422474019A005232C7 /* ContentView.swift in Sources */,
+				759F3C70247402E1005232C7 /* Gadget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
